@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <title>Hanoi Tower</title>
+</head>
+<body>
+    <header>
+        <div>DRAG & DROP HANOI TOWER</div>
+    </header>
+    <nav>
+        <input type="button" value="Add Disk" onclick="addDisk()">
+        <input type="button" value="Reset" onclick="reset()">
+    </nav>
+    <main>
+        <section>
+            <p>
+                <span>Move: </span>
+                <span id="moveCount"></span>
+            </p>
+        </section>
+        <section class="ground">
+            <div id="congratulation">congratulation</div>
+            <div id="towerA" class="tower">
+
+            </div>
+            <div id="towerB" class="tower">
+
+            </div>
+            <div id="towerC" class="tower">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        Turing Lab.
+    </footer>
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>

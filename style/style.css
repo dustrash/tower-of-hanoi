@@ -1,0 +1,54 @@
+body {
+    background-color: skyblue;
+    width: 1000px;
+}
+
+nav {
+    background-color: lightseagreen;
+}
+
+#congratulation {
+    position: absolute;
+    z-index: 2;
+    display: none;
+    font-size: 100px;
+    font-style: italic;
+}
+
+.ground {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 540px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tower {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 400px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-image: url("../image/tower.svg");
+    background-position: center;
+    background-color: lightslategrey;
+    margin: 0 10px;
+    padding-bottom: 60px;
+}
+
+.disc {
+    display: block;
+    background-color: crimson;
+    margin: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 0;
+    height: 15px;
+}
+
+.disc:hover {
+    background-color: violet;
+}
